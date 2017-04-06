@@ -1,0 +1,152 @@
+* {
+	text-align: center;
+	margin: 0;
+	padding: 0;/*
+	background-color: black;*/
+/*	position: relative;
+	z-index: 2;*/
+/*	border: 1px solid white;*/
+}
+
+body {
+	background-color: #000;
+}
+
+h1 {
+	color: #f9f704;
+	margin: 2% auto;
+	font-size: 70px
+}
+
+#analogClockBox {
+	position: relative;
+	height: 300px;
+	width: 300px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background: url(../img/img1.png) 0px 0px;
+	background-size: 300px 300px;
+	z-index: 1;
+}
+
+#black {
+	position: relative;
+	border-radius: 50%;
+	height: 30px;
+	width:30px;
+	top: 137px;
+	z-index: -2;
+}
+
+#hourHand {
+	position: relative;
+	width: 280px;
+	height: 50px;
+	left: -1px;
+	top: 91px;
+	z-index: -1;
+	/*transform: rotate(90deg);*/
+}
+
+#minuteHand {
+	position: relative;
+	width: 280px;
+	height: 25px;
+	left: -2;
+	top: 50px;
+	z-index: -1;
+/*	transform: rotate(90deg);*/
+}
+
+#secondHand {
+	position: relative;
+	width: 260px;
+	height: 10px;
+	left: -1px;
+	top: 24px;
+	z-index: -1;
+/*	transform: rotate(90deg);*/
+}
+
+#digitalClockBox {
+	height: 150px;
+	width: 800px;
+	margin: 2% auto;
+	border: 5px solid #F9F704;
+	border-radius: 2%;
+}
+
+
+#tenHours {
+	width: 120px;
+	height: 100%;/*
+	background: url(../img/clock_numbers.jpg) 190px 180px;
+	background-size: 510px 510px;*/
+	display: inline;
+	float: left;
+}
+
+#hours {
+	width: 120px;
+	height: 100%;/*
+	background: url(../img/clock_numbers.jpg) 10px 330px;
+	background-size: 510px 510px;*/
+	display: inline;
+	float: left;
+}
+
+#tenMinutes {
+	width: 120px;
+	height: 100%;/*
+	background: url(../img/clock_numbers.jpg) 250px -10px;
+	background-size: 510px 510px;*/
+	display: inline;
+	float: left;
+}
+
+#minutes {
+	width: 120px;
+	height: 100%;/*
+	background: url(../img/clock_numbers.jpg) 0px -10px;
+	background-size: 510px 510px;*/
+	display: inline;
+	float: left;
+}
+
+#tenSeconds {
+	width: 120px;
+	height: 100%;/*
+	background: url(../img/clock_numbers.jpg) 250px -10px;
+	background-size: 510px 510px;*/
+	display: inline;
+	float: left;
+}
+
+#seconds {
+	width: 120px;
+	height: 100%;/*
+	background: url(../img/clock_numbers.jpg) 0px -10px;
+	background-size: 510px 510px;*/
+	display: inline;
+	float: left;
+}
+
+/*colon  215px 160px;*/
+#colon {
+	width: 30px;
+	height: 100%;
+	background: url(../img/clock_numbers.jpg) 215px 160px;
+	background-size: 510px 510px;
+	display: inline;
+	float: left;
+}
+
+#period {
+	width: 30px;
+	height: 11%;
+	margin-top: 130px;
+	background: url(../img/clock_numbers.jpg) 215px 135px;
+	background-size: 510px 510px;
+	display: inline;
+	float: left;
+}
